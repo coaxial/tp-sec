@@ -6,6 +6,41 @@
 
 ---
 
+Les instructions dans le README (ci-dessous, en anglais) peuvent vous être
+utiles pour comprendre l'application et certaines des commandes disponibles.
+
+Comme nous nous interessons aux pipelines seulement, il n'est pas nécessaire de
+suivre les instructions du README pour configurer l'application localement:
+nous n'aurons pas besoin de l'éxécuter localement; seulement dans les pipelines.
+
+À la place, configurez les pipelines en créant des fichiers de workflows
+(`.github/workflows/*.yml`) afin de pouvoir exécuter differents types de tests
+et d'analyses sur cette application de démonstration.
+
+Cette application comprend déjà un grand nombre de tests Cypress que vous pouvez
+éxécuter dans une pipeline (plutôt que Selenium ou Playwright). Libre à vous de
+choisir quelles autres pipelines implémenter parmis les outils vus jusqu'à
+maintenant. Le but étant d'apprendre, je vous encourage à essayer d'apprivoiser
+les outils qui vous intimident ou vous intéressent le plus dans le cadre du
+cours: nous pourrons ainsi résoudre les blocages ensemble et apprendre.
+
+À titre indicatif, voici les outils que nous avons vus jusqu'à présent:
+
+- Selenium
+- Cypress
+- Playwright
+- Postman/Newman
+- Hurl
+- JMeter
+- ZAP proxy
+- Snyk
+- Renovate
+- linting (ESLint, Prettier…)
+- Mocha
+- Jest
+
+---
+
 <p align="center">
   <!-- We use two SVGs here so that this displays correctly
     on Github. This might not look right in other Markdown previewers. -->
