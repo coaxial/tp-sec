@@ -94,8 +94,8 @@ If you have Node.js' experimental [Corepack](https://nodejs.org/dist/latest/docs
 To clone the repo to your local system and install dependencies, execute the following commands:
 
 ```shell
-git clone https://github.com/cypress-io/cypress-realworld-app
-cd cypress-realworld-app
+git clone https://github.com/coaxial/tp-sec
+cd tp-sec/
 yarn
 ```
 
